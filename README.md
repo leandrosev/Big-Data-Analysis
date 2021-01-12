@@ -1,7 +1,7 @@
 # Big Data Analysis #
 
 
-## 1.Analyzing fishing activity from AIS (Automatic identification system) data ##
+## 1. Analyzing fishing activity from AIS (Automatic identification system) data ##
   
   ### Technologies: ###
     Python
@@ -21,3 +21,35 @@
     FishingAnalysisAIS.pdf (Greek)
     nosql_db.ipynb (Add data to local mongodb )
     mongodbProject.ipynb 
+
+## 2. Geospatial Queries on Big Data  ##
+  
+  ### Technologies ###
+    Apache Spark
+    Scala
+  
+  ### Dataset: ###
+    Testing dataset: Hotels and Restaurants Worldwide
+    Any two geospatial datasets can be used with a few modifications of the code
+  
+  ### Topics ###
+    Geospatial data indexing and partitioning in a cluster
+    Geospatial join between two datasets given a distance d
+      i.e.: Find all hotels close to all restaurants by a distance no more than d
+    Manual creation of a space-partitioning algorithm (for learning purposes. Well known libraries already exist for this task)
+    For distance metric, Haversine formula is used
+    
+  ### Files ###
+    GeoQueries_Spark.jar 
+            or
+    GeoQueries_Spark.scala
+  
+  ### Instructions (for jar) ###
+    spark-submit --master local[*] --class "app"  JAR_FILE d n file1 file2
+      JAR_FILE:  jar file location
+      d: distance in kilometers
+      n: number of partitions to make
+      file1,file2: locations of the two datasets to join
+  
+
+  
