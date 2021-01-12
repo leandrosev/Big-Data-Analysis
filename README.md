@@ -19,7 +19,11 @@
     Fishing vessels trajectory clustering (using Hausdorff distance)
     Fishing spots clustering
     Finding illegal fishing activities
-    Clustering algorithms used: KMeans,DBSCAN,Optics,Birch
+    Clustering algorithms used:
+       * KMeans
+       * DBSCAN
+       * Optics
+       * Birch
     
   ### Files: ###
     FishingAnalysisAIS.pdf (Greek)
