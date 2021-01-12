@@ -51,12 +51,12 @@
     GeoQueries_Spark.scala
   
   ### Instructions (for jar) ###
-   run: spark-submit --master local[*] --class "app"  JAR_FILE d n file1 file2
-   where:
-      JAR_FILE:  jar file location
-      d: distance in kilometers
-      n: number of partitions to make
-      file1,file2: locations of the two datasets to join
+    run: spark-submit --master local[*] --class "app"  JAR_FILE d n file1 file2
+    where:
+        JAR_FILE:  jar file location
+        d: distance in kilometers
+        n: number of partitions to make
+        file1,file2: locations of the two datasets to join
   
 
   
