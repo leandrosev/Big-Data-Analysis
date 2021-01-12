@@ -31,7 +31,8 @@
   ### Technologies ###
     Apache Spark
     Scala
-  
+ ![sparkscala](https://miro.medium.com/max/698/1*joLOATG-6WgXD-2Q22tzkQ.jpeg)
+ 
   ### Dataset: ###
     Testing dataset: Hotels and Restaurants Worldwide
     Any two geospatial datasets can be used with a few modifications of the code
